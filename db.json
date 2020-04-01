@@ -1,45 +1,22 @@
 {
   "DeviceProvisionRequest": {
-    "operator": {
-      "type": "string"
-    },
-    "modelName": {
-      "type": "string"
-    },
-    "serialNumber": {
-      "type": "string"
-    },
-    "fcmId": {
-      "type": "string"
-    }
+    "operator": "request-op-id-001",
+    "modelName": "model-001",
+    "serialNumber": "serial num - 001",
+    "fcmId": "fcm-id 001"
   },
   "DeviceProvisionResponse": {
-    "operator": {
-      "type": "string"
-    },
-    "modelName": {
-      "type": "string"
-    },
-    "serialNumber": {
-      "type": "string"
-    },
-    "fcmId": {
-      "type": "string"
-    },
-    "modelCode": {
-      "type": "string"
-    },
-    "tvsDeviceId": {
-      "type": "string"
-    },
-    "status": {
-      "type": "string"
-    },
-    "groups": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    }
+    "operator": "response-op-id-001",
+    "modelName": "model-001",
+    "serialNumber": "serial num - 001",
+    "fcmId": "fcm-id 001",
+    "modelCode": "modelCode code001",
+    "tvsDeviceId": "tvsDeviceId 001",
+    "status": "status 001",
+    "groups": [
+      "group1",
+      "group2",
+      "group3"
+    ]
   }
 }
